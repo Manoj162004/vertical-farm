@@ -1,3 +1,118 @@
 body{
-    margin: 0;
+    color: white;
+    font-family:Arial ;
+    background-color: rgb(16, 16, 16);
+}
+
+.top-bar{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.top-logo{
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+.nav,.nav-select{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input.button{
+    border: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font: 16px Arial;
+}
+.image{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: larger;
+    font-family: Arial;
+}
+.main-name{
+    padding: 10px;
+    font-size: 1em;
+    
+}
+.main-body{
+    padding: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-evenly; */
+
+
+
+}
+.main-top{
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 50px; */
+    align-content: space-between;
+
+}
+.main-top-left{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    width: 500px;
+
+}
+.main-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{
+    padding: 15px;
+    background-color: rgb(224, 242, 192) ;
+    border-radius: 10px;
+    color: black;
+}
+.highlight{
+    background-color: rgb(234, 253, 126);
+    color: black;
+}
+.headings{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+
+
+}
+.button-cl{
+    padding: 10px;
+    background-color: rgb(234, 253, 126) !important;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main-top-right{
+    width: 500px;
+    /* height: 500px; */
+}
+.it2{
+    background-color:rgb(241, 255, 158);
+}
+.it3{
+    background-color: rgb(255, 255, 255);
+}
+#design{
+    z-index: 1;
+}
+#left-image{
+    height: 400px;
 }
